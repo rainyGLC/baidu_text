@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  min-width:800px;
+  height: 100%;
+  min-height: 600px;
+}
+.nav{
+  display:flex;
+  justify-content: flex-end;
+  margin-top:20px;
+  list-style:none;
+}
+.nav-item{
+  display: inline-block;
+  vertical-align: top;
+  line-height: 24px;
+  margin-left:20px;
+  font-size: 13px;
+  font-weight: 700;
+  color:#333;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.login{
+  font-weight: 400;
+}
+.more{
+  width: 60px;
+  height: 22px;
+  margin-right: 20px;
+  border-bottom: 1px solid #38f;
+  text-align: center;
+  color:#fff;
+  background:#38f;
+  text-decoration: none;
+}
+.nav-item:hover{
+  color:#00c;
+}
+.mainer{
+  text-align: center;
+}
+.logo{
+  display: inline-block;
+  margin: 0 auto;
+  width: 270px;
+  height: 130px;
+}
+.logo img{
+  width: 270px;
+  height: 130px;
+}
+.mainer .container{
+  position: relative;
+  width: 642px;
+  margin:22px auto 0;
+}
+.container .search{
+  position: relative;
+  display: inherit;
+  width: 540px;
+  height: 36px;
+  border: 1px solid #b6b6b6;
+}
+.camera-icon{
+  position: absolute;
+  top: 10px;
+  right: 119px;
+  width: 20px;
+  height: 20px;
+  background:url(../img/camera.png) no-repeat;
+
+}
+.search-btn{
+  position: absolute;
+  top:0;
+  right:3px;
+  width: 100px;
+  line-height: 35px;
+  height: 36px;
+  color: #fff;
+  background:#3385ff;
+  border-bottom: 1px solid #2d78f4;
+  text-decoration: none;
+}
+.footer{
+  margin-top:130px;
+  text-align: center; 
+}
+.code-container img{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+.code-container .code-title{
+  margin-top:5px;
+  line-height: 25px;
+  color: #999;
+  font-size: 14px;
+}
+.dec-container{
+  margin-top: 20px;
+}
+.dec-list .dec-item{
+  line-height: 20px;
+  margin-left: 20px;
+  font-size: 14px;
+  color: #999;
+  text-decoration:underline;
+}
+.copy-list{
+  margin-top: 10px;
+}
+.copy-list .copy-item{
+  line-height: 20px;
+  font-size: 12px;
+  color:#999;
+  text-decoration: underline;
+}
+.copy-num{
+  line-height: 20px;
+  font-size: 12px;
+  color: #999;
+}
+.item-num{
+  margin-left:15px;
+}
+
